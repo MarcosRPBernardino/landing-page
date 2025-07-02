@@ -1,9 +1,65 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace, sans-serif;
+
+    --primary-color: #0066ff;
+    --primary-color-darker: #004dc2;
+    --secondary-color: rgb(244, 237, 237);
+    --background-color: #f8f9fa;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.flex {
+    display: flex;
 }
 
 .container {
-    display: flex;
+    margin: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.img {
+    width: 600px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-sale {
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    box-shadow: 0 4px 12px rgba(2, 2, 2, 0.4);
+}
+
+.btn-sale:hover {
+    background-color: var(--primary-color-darker);
+}
+
+.gap{
+    gap: 20px;
+}
+
+.card-text{
+    padding: 30px;
+}
+
+.card-img{
+    width: 125px;
+    height: 250px;
 }

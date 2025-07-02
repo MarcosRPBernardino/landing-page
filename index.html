@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Game Shop</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -12,42 +12,37 @@
 
 <body>
     <!-- hero section  -->
-    <section class="container">
+    <section class="container flex">
         <div>
-            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae officia explicabo soluta odio modi
-                assumenda.</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facere laudantium ullam praesentium
-                obcaecati eos excepturi, quis exercitationem culpa, placeat unde natus earum minus doloremque ad? Et
-                consequatur veritatis ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam, ex
-                eveniet maiores similique maxime quaerat quas earum porro quidem quos molestias, libero error facere
-                nulla voluptas velit corrupti. Perspiciatis?</h2>
-            <button>
-                <a href="">Botão</a>
+            <h1>Game Shop</h1>
+            <h2 class="subtitle">O universo dos games começa aqui. Explore títulos épicos, lançamentos imperdíveis e tudo que um verdadeiro gamer precisa.</h2>
+            <button class="btn-sale">
+                <a class="link" href="">Reserve já!</a>
             </button>
         </div>
         <div>
-            <img src="" alt="IMAGEM">
+            <img class="img" src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Xcpx97FEaX-oHVDpOk8yow.png" alt="IMAGEM-Games">
         </div>
     </section>
     <!-- Sobre o Produto  -->
-    <section>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa!</h1>
-        <div class="container">
-            <div>
-                <img src="" alt="Figura1">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quas dolores eius, laborum quae unde
+    <section class="container">
+        <h1>Principais Produtos</h1>
+        <div class="flex gap">
+            <div class="card">
+                <img class="card-img" src="./imagens/consoles.avif" alt="Figura1">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quas dolores eius, laborum quae unde
                     iste quibusdam pariatur perferendis cdivpa sed eum voluptatum ullam. Laboriosam tenetur corporis
                     dignissimos nobis quo!</p>
             </div>
-            <div>
-                <img src="" alt="Figura2">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quas dolores eius, laborum quae unde
+            <div class="card">
+                <img class="card-img" src="./imagens/controle neon.avif" alt="Figura2">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quas dolores eius, laborum quae unde
                     iste quibusdam pariatur perferendis culpa sed eum voluptatum ullam. Laboriosam tenetur corporis
                     dignissimos nobis quo!</p>
             </div>
-            <div>
-                <img src="" alt="Figura3">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quas dolores eius, laborum quae unde
+            <div class="card">
+                <img class="card-img" src="./imagens/game win.avif" alt="Figura3">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quas dolores eius, laborum quae unde
                     iste quibusdam pariatur perferendis culpa sed eum voluptatum ullam. Laboriosam tenetur corporis
                     dignissimos nobis quo!</p>
             </div>
@@ -120,7 +115,7 @@
         </div>
     </div>
     <!-- Rodapé -->
-    <footer class="container">
+    <footer class="container flex">
         <div class="logo">logo</div>
         <p> &copy; Copyright 2025</p>
         <a href="">Política de Privacidade</a>
